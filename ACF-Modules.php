@@ -1,23 +1,16 @@
 <?php
 	
 	/*
-	 *
-	 * Plugin Name: Cycle Slideshow Modul
-	 * Plugin Author: Adrian Lambertz
-	 * Description: Stellt die Cycle Slideshow zur Verfügung
-	 * Version: 0.5
-	 * GitHub Plugin URI: https://github.com/PixelbarEupen/ACF-Modules
-	 * Dependencies: 
-	 *		- Genesis Theme
-	 *		- ACF Gallery Field (named as 'start_slideshow') 
-	 *		- add_image_size('start_slide',XXX,XXX);
-	 *		- Cycle2
-	 * 		- jQuery
-	 *		- Icon Font with 'icon-arrow-XXXX' class
-	 * 
-	 * Notes:
-	 * Use the following configuration variables to set-up the module 
-	 *
+		
+	Plugin Name: ACF-Modules
+	Plugin Author: Adrian Lambertz
+	Plugin URI: https://github.com/PixelbarEupen/ACF-Modules
+	Description: Stellt die Cycle Slideshow zur Verfügung
+	Version: 0.6
+	GitHub Plugin URI: https://github.com/PixelbarEupen/ACF-Modules
+	
+	Notes:
+	Use the following configuration variables to set-up the module 
 	 */
 	
 	
