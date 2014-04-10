@@ -29,7 +29,7 @@
 				<div 
 					class="cycle-slideshow"
 					data-cycle-fx=scrollHorz
-				    data-cycle-timeout=0
+					data-cycle-timeout=0
 					data-cycle-prev="#prev"
 					data-cycle-next="#next"
 				>
