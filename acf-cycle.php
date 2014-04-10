@@ -2,7 +2,7 @@
 	
 	/*
 	 *
-	 * Module Name: Cycle Slideshow
+	 * Module Name: Cycle Slideshow Modul
 	 * Module Author: Adrian Lambertz
 	 * Module Version: 0.1
 	 * Dependencies: 
