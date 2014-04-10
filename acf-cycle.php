@@ -11,6 +11,7 @@
 	 *		- add_image_size('start_slide',XXX,XXX);
 	 *		- Cycle2
 	 * 		- jQuery
+	 *		- Icon Font with 'icon-arrow-XXXX' class
 	 * 
 	 * Notes:
 	 * This Modules creates a function that echoes the whole content. To use it, use start_slideshow().
@@ -19,12 +20,32 @@
 	 */
 	
 	
-	//add_action( 'genesis_before_entry_content', 'start_slideshow' );
-	function start_slideshow() { ?>
+	/* 	CONFIGURATION */
+	$use_with_hook	 	=	true;
+	$hook_name			=	'genesis_before_entry_content';
+	$gallery_field_name	=	'start_slideshow';
+	$image_size_name	=	'start_slide';
 	
-		<?php if(get_field('start_slideshow')): ?>
+	
+	
+	
+	/******************************************************************************************/
+	/************************* DO NOT CHANGE ANYTHING AFTER THIS LINE *************************/
+	
+	if($use_with_hook ):
+		add_action( $hook_name, 'start_slideshow' );
+	endif;
+	function start_slideshow() { ?>
+		
+		<?php
+		
+			global $use_with_hook, $hook_name, $gallery_field_name, $image_size_name;
+		
+		?>
+		
+		<?php if(get_field($gallery_field_name)): ?>
 			<div class="home-slider">
-			<?php $images = get_field('start_slideshow'); ?>
+			<?php $images = get_field($gallery_field_name); ?>
 			<?php if(count($images) > 1): ?>
 				<div 
 					class="cycle-slideshow"
@@ -37,9 +58,9 @@
 			
 			<?php foreach($images as $image): ?>
 				<img 
-					src="<?php echo $image['sizes']['start_slide']; ?>" 
-					width="<?php echo $image['sizes']['start_slide-width']; ?>" 
-					height="<?php echo $image['sizes']['start_slide-height']; ?>" 
+					src="<?php echo $image['sizes'][$image_size_name]; ?>" 
+					width="<?php echo $image['sizes'][$image_size_name.'-width']; ?>" 
+					height="<?php echo $image['sizes'][$image_size_name.'-height']; ?>" 
 					alt="Suite 36 - Smart Lodging" 
 				/>
 			<?php endforeach; ?>
