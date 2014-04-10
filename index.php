@@ -5,7 +5,7 @@
 	 * Plugin Name: Cycle Slideshow Modul
 	 * Plugin Author: Adrian Lambertz
 	 * Description: Stellt die Cycle Slideshow zur Verfügung
-	 * Version: 0.1
+	 * Version: 0.2
 	 * GitHub Plugin URI: PixelbarEupen/ACF-Modules
 	 * GitHub Plugin URI: https://github.com/PixelbarEupen/ACF-Modules
 	 * Dependencies: 
