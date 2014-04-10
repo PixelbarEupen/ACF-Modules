@@ -2,9 +2,12 @@
 	
 	/*
 	 *
-	 * Module Name: Cycle Slideshow Modul
-	 * Module Author: Adrian Lambertz
-	 * Module Version: 0.1
+	 * Plugin Name: Cycle Slideshow Modul
+	 * Plugin Author: Adrian Lambertz
+	 * Description: Stellt die Cycle Slideshow zur Verfügung
+	 * Plugin Version: 0.1
+	 * GitHub Plugin URI: PixelbarEupen/ACF-Modules
+	 * GitHub Plugin URI: https://github.com/PixelbarEupen/ACF-Modules
 	 * Dependencies: 
 	 *		- Genesis Theme
 	 *		- ACF Gallery Field (named as 'start_slideshow') 
@@ -14,9 +17,8 @@
 	 *		- Icon Font with 'icon-arrow-XXXX' class
 	 * 
 	 * Notes:
-	 * This Modules creates a function that echoes the whole content. To use it, use start_slideshow().
-	 * If you are using Genesis, use a Hook to integrate the slideshow in the project. 
-	 * You can use the commented 'genesis_before_entry_content' add_action hook from this module.
+	 * Use the following configuration variables to set-up the module 
+	 *
 	 */
 	
 	
