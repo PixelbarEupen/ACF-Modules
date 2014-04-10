@@ -15,7 +15,7 @@
 	 * Notes:
 	 * This Modules creates a function that echoes the whole content. To use it, use start_slideshow().
 	 * If you are using Genesis, use a Hook to integrate the slideshow in the project. 
-	 * You can use the commented 'genesis_before_entry_content' add_action hook from this module
+	 * You can use the commented 'genesis_before_entry_content' add_action hook from this module.
 	 */
 	
 	
