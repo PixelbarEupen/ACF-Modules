@@ -1,5 +1,9 @@
 ### ChangeLog for GitHub Updater
 
+#### 0.4
+
+* TEST!
+
 #### 0.3
 
 * Kleines Stabilitätsupdate
