@@ -1,9 +1,13 @@
 ### ChangeLog for GitHub Updater
 
-#### 0.5
+#### 0.6
 
 * Blödsinn rausholen
 
+
+#### 0.5
+
+* Blödsinn rausholen
 
 #### 0.4
 
