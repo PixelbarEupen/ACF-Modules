@@ -1,5 +1,10 @@
 ### ChangeLog for GitHub Updater
 
+#### 0.7
+
+* Testrelease
+
+
 #### 0.6
 
 * Blödsinn rausholen
